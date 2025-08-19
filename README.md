@@ -10,7 +10,7 @@ Este projeto está sendo desenvolvido como requisito de avaliação para a disci
 | Nome Completo | Prontuário |
 | :--- | :--- | 
 | Bruno Timóteo Silva             | SPXXXXXX | 
-| Fernando Pereira Felipe Duarte  | SP311872 |  
+| Fernando Pereira Felipe Duarte  | SP311872X|  
 | João Pedro de Almeida Martins   | SPXXXXXX |
 | Kaio Damasceno de Oliveira      | SP3124517|
 | Matheus Barbosa Silva           | SPXXXXXX |
