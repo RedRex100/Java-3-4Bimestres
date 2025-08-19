@@ -13,7 +13,7 @@ Este projeto está sendo desenvolvido como requisito de avaliação para a disci
 | Fernando Pereira Felipe Duarte  | SP311872X|  
 | João Pedro de Almeida Martins   | SP3115933|
 | Kaio Damasceno de Oliveira      | SP3124517|
-| Matheus Barbosa Silva           | SPXXXXXX |
+| Matheus Barbosa Silva           | SP311659X|
 
 ## ✨ Funcionalidades Principais
 
@@ -24,10 +24,10 @@ Este projeto está sendo desenvolvido como requisito de avaliação para a disci
 * 🔍 **Filtros Inteligentes:** Filtre suas tarefas por data de vencimento (hoje, esta semana, este mês), status ou pelas tags criadas.
 * ❗ **Indicadores Visuais:** Identifique facilmente tarefas atrasadas através de destaques visuais automáticos.
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas {SUJEITO A MUDANÇAS}
 
 * **Back-end:** Java 17, Spring Boot, Spring Security, JPA/Hibernate, SQLite
 * **Front-end:** React  TypeScript, CSS/Styled Components
 * **Ferramentas:** Git, GitHub, Maven, Insomnia/Postman
-{SUJEITO A MUDANÇAS}
+
 ---
