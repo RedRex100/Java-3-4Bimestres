@@ -13,7 +13,7 @@ Este projeto está sendo desenvolvido como requisito de avaliação para a disci
 | Fernando Pereira Felipe Duarte  | SPXXXXXX |  
 | João Pedro de Almeida Martins   | SPXXXXXX |
 | Kaio Damasceno de Oliveira      | SP3124517|
-| Mateus Barbosa Silva            | SPXXXXXX |
+| Matheus Barbosa Silva           | SPXXXXXX |
 
 ## ✨ Funcionalidades Principais
 
