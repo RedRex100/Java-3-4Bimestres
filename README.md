@@ -29,5 +29,5 @@ Este projeto está sendo desenvolvido como requisito de avaliação para a disci
 * **Back-end:** Java 17, Spring Boot, Spring Security, JPA/Hibernate, SQLite
 * **Front-end:** React  TypeScript, CSS/Styled Components
 * **Ferramentas:** Git, GitHub, Maven, Insomnia/Postman
-
+{SUJEITO A MUDANÇAS}
 ---
