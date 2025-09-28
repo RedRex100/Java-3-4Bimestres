@@ -1,6 +1,7 @@
 package com.Projeto_3_4bim.todolist.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -21,6 +22,9 @@ public class UserService implements UserDetailsService {
 
     @Autowired
     private UserRepository userRepository;
+
+    @Autowired
+    private PasswordEncoder passwordEncoder; // Injeta o encoder de senhas
 
     /**
      * Localiza o usuário com base no nome de usuário. No processo de autenticação,
@@ -47,5 +51,15 @@ public class UserService implements UserDetailsService {
         );
     }
 
-    // Futuramente, adicionaremos o método para salvar/registrar usuários aqui.
+    /**
+     * Salva um novo usuário no banco de dados.
+     * Antes de salvar, a senha do usuário é criptografada.
+     * @param user o objeto User a ser salvo.
+     */
+    public void save(User user) {
+        // Criptografa a senha antes de salvar no banco de dados
+        user.setPassword(passwordEncoder.encode(user.getPassword()));
+        userRepository.save(user);
+    }
 }
+

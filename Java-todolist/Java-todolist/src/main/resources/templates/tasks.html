@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- Adicionamos o namespace do Thymeleaf Spring Security -->
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas Tarefas</title>
+    <!-- Incluindo Bootstrap via CDN para estilização rápida -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link para nosso CSS customizado -->
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+
+<!-- Barra de Navegação Superior -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" th:href="@{/tasks}">Gerenciador de Tarefas</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <!-- Exibe o nome do usuário logado -->
+                    <span class="navbar-text me-3">
+                        Olá, <strong sec:authentication="name">Usuário</strong>
+                    </span>
+                </li>
+                <li class="nav-item">
+                    <!-- Formulário de Logout -->
+                    <form th:action="@{/logout}" method="post" class="d-inline">
+                        <button type="submit" class="btn btn-outline-light">Sair</button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Conteúdo Principal -->
+<div class="container mt-5">
+    <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">Bem-vindo(a) à sua lista de tarefas!</h1>
+            <p class="col-md-8 fs-4">
+                Esta é a sua página principal. A funcionalidade completa de gerenciamento de tarefas
+                será implementada na entrega do quarto bimestre.
+            </p>
+            <p>Por enquanto, o objetivo de criar um usuário, autenticar e acessar esta página protegida foi concluído com sucesso.</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

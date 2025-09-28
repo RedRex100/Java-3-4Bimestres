@@ -1,4 +1,4 @@
-package com.Projeto_3_4bim.Java_todolist;
+package com.Projeto_3_4bim.todolist;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
