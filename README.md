@@ -47,8 +47,8 @@ Este projeto é um requisito de avaliação para a disciplina **Laboratório de 
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/KaioDamasceno/Java-3-4Bimestres.git
+cd Java-3-4Bimestres
 ```
 
 1. Abra o projeto na sua IDE.
